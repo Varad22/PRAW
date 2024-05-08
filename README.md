@@ -10,7 +10,9 @@ My approach involved leveraging the PRAW library to access Reddit's API and extr
 
 
 **Data Collected:** I gathered titles, scores (upvotes) and IDs; and generated URLs using this data of top posts from the "clinicaltrials" subreddit, along with comments and authors from those posts.
+
 **Analysis Performed**: I conducted sentiment analysis on the comments using the Hugging Face Transformers pipeline to classify sentiment as positive, negative, or neutral.
+
 **Messages Generated:** For authors whose comments were classified as positive sentiment, I generated personalized messages encouraging them to consider participating in clinical trials. These messages offered guidance and support throughout the process.
 
 **Ethical Consideration**
